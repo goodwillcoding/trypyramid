@@ -28,6 +28,9 @@ div.navbar-fixed-top {
 .navbar-default .navbar-brand:visited {
     color: #ffffff;
 }
+.navbar-nav>li>a {
+    padding: 8px 11px;
+}
 .pylons-project-footer {
     padding-top: 40px;
     padding-bottom: 40px;
