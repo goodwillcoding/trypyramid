@@ -5,7 +5,7 @@ body {
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .navbar {font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;}
 #pyramid_logo {margin-top: 20px;}
 div.navbar-fixed-top {
-    background-color: #BF1E2D;
+    background-color: #bf1e2d;
 }
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:hover,
@@ -30,6 +30,28 @@ div.navbar-fixed-top {
 }
 .navbar-nav>li>a {
     padding: 8px 11px;
+}
+.navbar-header>img {
+    margin-top: 10px; margin-right: 10px;
+}
+@media (max-width: 767px) {
+    .navbar-header>img {
+        margin-top: 4px;
+        margin-left: 10px;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+        color: #ffffff;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover, .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
+        background-color: #ffffff;
+        color: #bf1e2d;
+    }
+    .navbar-brand {
+        margin-top: 0px;
+    }
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
 }
 .pylons-project-footer {
     padding-top: 40px;
