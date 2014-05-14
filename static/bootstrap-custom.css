@@ -66,3 +66,10 @@ div.navbar-fixed-top {
  .syntaxhighlighter {
     overflow-y: hidden !important;
 }
+.syntaxhighlighter .toolbar {
+    background: #bf1e2d !important;
+}
+.syntaxhighlighter .toolbar a:hover {
+    color: #bf1e2d !important;
+    background: white !important;
+}
