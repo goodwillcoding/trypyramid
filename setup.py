@@ -22,7 +22,7 @@ def main():
         long_description=README + '\n\n' +  CHANGES,
         author='Pylons Project',
         author_email='@',
-        url='https://github.com/goodwillcoding/trypyramid',
+        url='https://github.com/Pylons/trypyramid',
         packages=[
             'trypyramid',
         ],
